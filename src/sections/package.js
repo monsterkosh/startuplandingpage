@@ -34,9 +34,9 @@ export default function Package() {
   });
 
   const handlingPricingPlan = (plan) => {
-    if (plan === 'anual') {
+    if (plan === 'annual') {
       setState({
-        active: 'anual',
+        active: 'annual',
         pricingPlan: annual,
       });
     } else {
